@@ -4,11 +4,9 @@ This project trains a CNN (ResNet18 / VGG-lite) on the **Food-11 dataset** and s
 
 ## Files
 - `food_classification.py` → Training script  
-- `streamlit_full.py` → Streamlit app (predict + metrics)  
-- `best_model_res.h5` → Saved model (ignored in repo by default)  
+- `streamlit_full.py` → Streamlit app
+- `best_model_res.h5` → Saved model 
 
-## How to run
-```bash
-pip install -r requirements.txt
-python food_classification.py --data_dir ./food-11
-streamlit run streamlit_full.py
+## Metrics 
+<img width="2000" height="1600" alt="confusion_matrix" src="https://github.com/user-attachments/assets/1182308a-332b-4474-86c2-bcd6f59dcc37" />
+
